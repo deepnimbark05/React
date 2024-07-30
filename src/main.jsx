@@ -8,7 +8,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import { MyCart, Layout, Page } from "./components/index.js";
+import { MyCart, Layout, Page } from "./Components/index.js";
 import { Provider } from "react-redux";
 import store from "./Context/Store.js";
 

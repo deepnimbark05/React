@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { genarateItems } from "../Hooks/index";
-import { Cards } from "../components/index";
+import { Cards } from "../Components/index";
 
 const Page = () => {
   const [data, setData] = useState([]);

@@ -1,4 +1,4 @@
-import {Header, Page} from "./components/index"
+import {Header, Page} from "./Components/index"
 function App() {
   return (
     <>
