@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+
 import "./index.css";
 import {
   createBrowserRouter,
@@ -8,7 +8,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
-import { MyCart, Layout, Page } from "./Components/index.js";
+import { MyCart, Layout, Page } from "./components/index.js";
 import { Provider } from "react-redux";
 import store from "./Context/Store.js";
 
